@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssignmentApp.WepApi", "AssignmentApp\AssignmentApp.WepApi.csproj", "{90A82511-ACDB-4CAD-9669-6976E8E1B4C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssignmentApp.Api", "AssignmentApp\AssignmentApp.Api.csproj", "{90A82511-ACDB-4CAD-9669-6976E8E1B4C7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentApp.Domain", "AssignmentApp.Domain\AssignmentApp.Domain.csproj", "{48C07E27-B531-4C7A-89B2-8D452CBC6315}"
 EndProject
