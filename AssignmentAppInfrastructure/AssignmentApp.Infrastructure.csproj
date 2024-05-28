@@ -6,4 +6,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="7.1.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AssignmentApp.Domain\AssignmentApp.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\Excel\CarMake.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
