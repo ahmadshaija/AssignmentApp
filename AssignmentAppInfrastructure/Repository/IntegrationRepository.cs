@@ -25,7 +25,6 @@ public class IntegrationRepository : IIntegrationRepository
         try
         {
             var response = await httpClient.GetAsync($"https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMakeIdYear/makeId/{makeId}/modelyear/{modelYear}?format=json");
-            response.EnsureSuccessStatusCode();
             if (!response.IsSuccessStatusCode)
             {
                 return new List<string>();
